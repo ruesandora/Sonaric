@@ -50,13 +50,6 @@ sudo apt update
 sudo apt upgrade sonaric
 sonaric node-info
 ```
-```console
-# gerekli portlar
-sudo ufw allow 44003
-sudo ufw allow 44004
-sudo ufw allow 44005
-sudo ufw allow 44006
-```
 
 ```console
 # komutun sonunu düzenleyelim.
