@@ -26,6 +26,14 @@
 # sunucu güncelleme
 sudo apt-get update && sudo apt-get upgrade -y
 
+# nvm kullanarak nodejs yükleyelim 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+nvm install 20
+nvm use 20
+npm install -g npm@latest
+
 # sonaric kurulumu
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/monk-io/sonaric-install/main/linux-install-sonaric.sh)"
 ````
