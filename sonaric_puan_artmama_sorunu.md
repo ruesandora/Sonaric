@@ -17,3 +17,5 @@ systemctl start sonaricd
 ```console
 systemctl status sonaricd
 ````
+![image](https://github.com/user-attachments/assets/c6808df3-0424-457b-b02f-908e627925c7)
+> Bu şekilde ise devam edelim
