@@ -1,5 +1,11 @@
 # BU KISMI identity DOSYANIZ VARSA YAPABİLİRSİNİZ
 
+> işlermeri yapmadan önce çakışmayı önlemek için eski nodenizi durdurun
+
+```console
+systemctl stop sonaricd
+````
+
 > identity dosyanız sunucuda bu şekilde olması gerek
 
 ![image](https://github.com/user-attachments/assets/100cfef5-0c43-4afd-a07c-05c94879f49e)
