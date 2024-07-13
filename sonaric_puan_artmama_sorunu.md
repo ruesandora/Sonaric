@@ -1,7 +1,5 @@
 # Sonaric Puan Artmama Sorunu
 
-# İŞLEMLERDEN ÖNCE İDENTİTY DOSYANIZI YEDEKLEYİN!
-
 > Sonaric'de puanlarınız hiç artmıyorsa bu yöntemi deneyebilirsiniz
 
 # Başlangıç
@@ -19,28 +17,14 @@ systemctl start sonaricd
 ```console
 systemctl status sonaricd
 ````
+![image](https://github.com/user-attachments/assets/8078ae7e-949f-43f1-9bfa-b5d80f5d8c30)
 
-# BU KISIM YUKARIDAKİ İŞLEMİ YAPTIKTAN SORNA PUANLARI SIFIRLANAN KULLANICILAR İÇİNDİR
+> Böyle ise devam edelim
 
-> identity dosyanız sunucuda bu şekilde olması gerek
-> 
-![image](https://github.com/user-attachments/assets/100cfef5-0c43-4afd-a07c-05c94879f49e)
-
-> Dosyanımızı içeri aktaralım
-
+> Puanlarım artıyormu kontrol edelim
 ```console
-sonaric identity-import -i <DOSYA YOLUNUZ>
+sonaric points
 ````
-> Şifremizi girelim
-> 
-![image](https://github.com/user-attachments/assets/5fd88b3d-c07b-4790-9490-4f78e5871061)
 
-> Bu çıktıyı aldıysak devam
-
-```console
-sonaric run sonaric-gui/latest
-````
-![image](https://github.com/user-attachments/assets/daba3408-29b7-4491-8942-4464264172cd)
-
-# TEBRİKLER! ARTIK PUANLARINIZ ARTIYOR
-> Anlamadığınız Yerleri RC de sorabilirsiniz
+# Artmaya Başladıysa Tamamdır
+> Anlamadığınız yerleri RC de sorabilirsiniz
