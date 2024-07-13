@@ -4,7 +4,7 @@
 
 > Bu sorun aynı zamanda bu hatayıda çözer
 
-![image](https://github.com/user-attachments/assets/29bda0e5-a173-4df2-9803-a1673d2cf242)
+![image](https://github.com/user-attachments/assets/cada8b24-5abb-4d67-820d-f5903c896fd5)
 
 # Başlangıç
 > Ağı silelim
